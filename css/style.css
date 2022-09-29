@@ -124,6 +124,10 @@ body {
   text-decoration: none;
 }
 
+.nav-link:hover {
+  text-decoration: underline;
+}
+
 /*TRANDS NOW*/
 
 .section-title-top {
@@ -340,6 +344,11 @@ body {
   display: inline;
 }
 
+.tags-anonse-link:hover {
+  text-decoration: underline;
+  color: #999966;
+}
+
 .tags-anonse-item a {
   font-size: 14px;
   font-weight: 700;
@@ -466,6 +475,10 @@ body {
   text-decoration: none;
 }
 
+.title-new-post-link:hover {
+  color: #b59f5b;
+}
+
 .article-new-post {
   width: 181px;
 }
@@ -509,6 +522,10 @@ body {
   height: 18px;
 }
 
+.search-button:hover {
+  background-color: #323232;
+}
+
 input::placeholder {
   font-size: 13px;
   font-weight: 400;
@@ -545,17 +562,28 @@ input::placeholder {
   cursor: pointer;
 }
 
+.mailing-button:hover {
+  background-color: #323232;
+}
+
 .tags-item {
-  display: inline-flex;
-  justify-content: center;
-  flex-direction: column;
-  padding: 5px;
-  border: 3px solid #eeeeee;
-  background-color: #f4f3f1;
+  display: inline-block;
+  padding: 7px 11px;
+  margin-top: 6px;
+  font-size: 14px;
+  font-family: OpenSans-Bold, sans-serif;
   box-sizing: border-box;
-  height: 30px;
-  margin-right: 5px;
-  margin-bottom: 5px;
+  border: 3px solid #eeeeee;
+  text-decoration: none;
+  font-weight: bold;
+  color: #000000;
+  text-transform: uppercase;
+  margin-right: 3px;
+}
+
+.tags-item:hover {
+  color: #b59f5b;
+  border: 3px solid #b59f5b;
 }
 
 .tags-item-link {
@@ -582,6 +610,10 @@ input::placeholder {
   text-decoration: none;
   padding: 10px 0;
   border-bottom: 1px solid #eeeeee;
+}
+
+.themes-item-link:hover {
+  color: #b59f5b;
 }
 
 .summa {
@@ -721,6 +753,10 @@ input::placeholder {
   text-transform: uppercase;
   text-decoration: none;
   cursor: pointer;
+}
+
+.product-link:hover {
+  background-color: #323232;
 }
 
 .fa {

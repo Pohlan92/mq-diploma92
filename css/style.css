@@ -380,6 +380,10 @@ body {
   text-decoration: none;
 }
 
+.article-title-link:hover {
+  color: #b59f5b;
+}
+
 .date {
   font-size: 12px;
   font-weight: 400;
